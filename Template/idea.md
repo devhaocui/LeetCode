@@ -1,0 +1,5 @@
+# Idea.md
+
+## Problem
+
+## Solution
