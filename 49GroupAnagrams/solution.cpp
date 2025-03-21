@@ -10,15 +10,14 @@ public:
     unordered_map<string, vector<string>> uSolution;
     vector<vector<string>> answer;
     for (int i{0}; i < strs.size(); i++) {
-      string sortedStr = strs[i]; // set current index string to be sorted.
-      sort(sortedStr.begin(), sortedStr.end()); // sort the current string
-      uSolution[sortedStr].push_back(strs[i]); // push back the string into the sorted key but keep the value being pushed back unsorted.
+      string sortedStr = strs[i];
+      sort(sortedStr.begin(), sortedStr.end());
+      uSolution[sortedStr].push_back(strs[i]);
     }
 
     //convert back to return type format
-    for (auto i : uSolution) { // i is a pair <key, vector<vector>>
+    for (auto i : uSolution) // i is a pair <key, vector<vector>>
       answer.push_back(i.second);
-    }
     return answer;
     }
 };
