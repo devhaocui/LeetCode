@@ -9,10 +9,7 @@ it can be done in any other way. Finally it will end on researching the most
 "optimal" solution on the internet and give thoughts on the advantage and disadvantage of each method.
 2. one or more .CPP file for each solution. To keep things organized it might 
 be best to just have a separate .CPP file for each solution, so that it could be read easily.
-
-The idea is to force the inconvenience of having to create a separate idea.md to
-pursue longer duration of thinking time rather than just typing out some very
-rough idea using comments in the same .CPP files.
+3. The Template directory is used to make copies of the folder for faster workflow. Rather than creating a new directory with all the boilerplate all the time for leetcode I figured this would help in the long run.
 
 ### Quality Of Life Improvement (To-Do list)
 
