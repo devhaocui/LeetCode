@@ -2,13 +2,7 @@
 
 ## Problem
 
-- Given an array of strs strings, group the anagrams together.
-  You can return the answer in any order.
-
-- Input: strs = ["eat","tea","tan","ate","nat","bat"]
-- Output: `[["bat"], ["nat","tan"], ["ate","eat","tea"]]`
-
-- note: `strs[i]` consists of lowercase English letters.
+![Problem Link Here](https://i.imgur.com/7OvSSD8.png)
 
 ## Solution
 
@@ -34,4 +28,3 @@
   with 1 million characters. And most words aren't any longer than 10.
   therefore having a fixed array to loop 26 times no matter the length
   of each word is a time waster.
-

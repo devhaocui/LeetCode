@@ -2,7 +2,7 @@
 
 ## Problem
 
-- Given two strings s and t, return true if t is an anagram of s, and false otherwise.
+![Problem Link Here](https://i.imgur.com/94CLyOl.png)
 
 ## Solution
 
