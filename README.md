@@ -21,11 +21,11 @@ would help in the long run.
 4. An example of each `idea.md` that's in every directory
 ![Problem Link Here](https://i.imgur.com/YwiDBy4.png)
 
-## What This Repository is NOT
+[!IMPORTANT] What This Repository is NOT
 
-- [!IMPORTANT] This repo is based on my journey and often times might not contain
-  the absolute "Optimal" solutions. But what I will promise is there will
-  not be any solutions that do not pass the test cases.
+- This repo is based on my journey and often times might not contain the
+absolute "Optimal" solutions. But what I will promise is there will
+not be any solutions that do not pass the test cases.
 
 ### Quality Of Life Improvement (To-Do list)
 
