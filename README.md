@@ -27,9 +27,3 @@ would help in the long run.
 > This repo is based on my journey and often times might not contain the
   absolute "Optimal" solutions. But what I will promise is there will
   not be any solutions that do not pass the test cases.
-
-### Quality Of Life Improvement (To-Do list)
-
-- [ ] create a short script that each time a new directory is created
-  it will automatically update the main README.md file as a counter
-  to represent the amount of problems solved.

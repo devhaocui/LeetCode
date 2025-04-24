@@ -15,7 +15,7 @@ public:
     return solution;
   }
 
-  // NOTE: DRAW THIS OUT IN THE IPAD TO UNDERSTAND IT BETTER
+  // NOTE: DRAW THIS OUT IN THE IPAD OR PAPER TO UNDERSTAND IT BETTER
   vector<string> decode(string s) {
     vector<string> solution;
     int i{0};

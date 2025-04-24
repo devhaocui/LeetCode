@@ -36,7 +36,7 @@ using `stoi()` and assign it into an integer `lengthOfSubStr`.
 > think about what would happen if we don't do that and just
 > let `i` run onto the next loop? `i` would be 1 on the next
 > iteration right? From our example that's s[1] and from our
-> encoded string it's a # sign. ---> 4#neet...
+> encoded string it's a # sign. ---> `4#neet...`
 > so we must re-adjust `i` such that it would skip over the
 > characters we have already accounted for. Thus is what our
 > final line `i = j + lengthOfSubStr + 1` is all about!

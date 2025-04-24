@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/Users/haocui/LeetCode/Template/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -std=gnu++2b -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk -o CMakeFiles/solution.dir/solution.cpp.o -c /Users/haocui/LeetCode/Template/solution.cpp",
+  "file": "/Users/haocui/LeetCode/Template/solution.cpp",
+  "output": "CMakeFiles/solution.dir/solution.cpp.o"
+}
+]
