@@ -1,4 +1,3 @@
-#include <cfloat>
 #include <iostream>
 #include <vector>
 
@@ -16,10 +15,11 @@ public:
     for (int i = 1; i < n; i++)
       result[i] = result[i-1] * nums[i-1];
 
-    int postfix = 1;
+    int postfix = 1; // initialize a postfix value
     for (int i = n - 1; i >= 0; i--) {
       result[i] *= postfix;
-      postfix *= nums[i];
+      postfix *= nums[i]; // update postfix value
+
       // the two lines above are equivalent to...
       // result[i] = result[i] * postfix;
       // postfix = postfix * nums[i];

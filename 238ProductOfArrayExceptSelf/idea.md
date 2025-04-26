@@ -18,12 +18,17 @@ are any 0's in the data. Keep track of the amount of zeros,
 
 ## Solution 2: Using a Prefix Postfix Array
 
-- We can use a prefix array to store the multiplied value of current element and one element before it.
-- Then use a postfix array to store all the elements one before the last element, multiply it with the last element, keep doing that until we reach to the start of the array.
+- We can use a prefix array to store the multiplied value of
+current element and one element before it.
+- Then use a postfix array to store all the elements one before
+the last element, multiply it with the last element, keep doing
+that until we reach to the start of the array.
 - then multiple each index of the arrays to get our result.
 
 ## Solution 3: Storing both the prefix and suffix
 
-- Similar to solution 2, but instead of having multiple arrays we can save memory by calculating the prefix into the result array,
-then using calculating the postfix and apply it with the result array. 
-This should save us memory since we have now removed prefix and postfix arrays. Now we only have a result[] array.
+- Similar to solution 2, but instead of having multiple arrays
+we can save memory by calculating the prefix into the result array,
+then using calculating the postfix and apply it with the result array.
+This should save us memory since we have now removed prefix and
+postfix arrays. Now we only have a result[] array.
