@@ -27,6 +27,8 @@ public:
       result[i] = postfix[i] * prefix[i];
     }
     // NOTE: DISPLAYING ALL VECTORS
+    // do not use these lines below to submit the code.
+    // The print statements will slow down the speed.
     for (auto i : prefix)
       std::cout << i << " ";
 

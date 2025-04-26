@@ -1,4 +1,4 @@
-# Idea.md
+# `Idea.md`
 
 ## Problem
 
