@@ -1,11 +1,20 @@
 #include <iostream>
 #include <vector>
+#include <unordered_set>
+#include <string>
 
 using namespace std;
 
 class Solution {
 public:
-  bool isValidSudoku(vector<vector<char>> &board) { return false; }
+  // TODO:
+  // 1. double for loop to iterate through each column
+  // 2. double for loop to iterate through each row.
+  // 3. triple for loop to iterate each 3x3 box.
+  bool isValidSudoku(vector<vector<char>> &board) {
+    std::unordered_set<int> mySet;
+    return true;
+  }
 };
 
 int main() {
@@ -20,7 +29,8 @@ int main() {
       {'.', '6', '.', '.', '.', '.', '2', '8', '.'},
       {'.', '.', '.', '4', '1', '9', '.', '.', '5'},
       {'.', '.', '.', '.', '8', '.', '.', '7', '9'}};
-
-  // o1.someFunction();
+  Solution obj1;
+  std::string result = obj1.isValidSudoku(board) ? "true" : "false";
+  std::cout << result << "\n";
   return 0;
 }

@@ -8,10 +8,10 @@
 
 - Solution Description
 
-## Solution 3
+## Solution 2
 
 - Solution Description
 
-## Solution 2
+## Solution 3
 
 - Solution Description
