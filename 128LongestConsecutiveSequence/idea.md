@@ -1,5 +1,4 @@
 # `Idea.md`
-
 ## Problem
 
 ![Problem Link Here](https://i.imgur.com/E9dt9TL.png)

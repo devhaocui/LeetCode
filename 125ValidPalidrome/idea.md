@@ -16,7 +16,6 @@ of the original string using `rbegin()` and `rend()`
 - set another variable to be the end of the string.
 - run a single loop to check them, where the
 end variable decrements and begin variable increments.
-
 ## Solution 3
 
 - Solution Description
